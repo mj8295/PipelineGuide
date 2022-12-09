@@ -3,15 +3,12 @@
 ## 1.1 - Create a New Project
 
 On the Google Cloud wecome page select the project dropdown menu.
-
 Select the "New Project" button in the top right corner of the window that pops up.
 
 ## 1.2 - Create a Service Account
 
 In the Management section of the Google Cloud Console select the IAM & Admin service
-
 Select the Service Accounts tab on the left side of the page
-
 Select Create Service Account
 
 ## 1.3 - Generate a Key
@@ -62,11 +59,11 @@ Select a region, computation power, and operating system
 
 Create a config file in the .ssh folder
 
-touch config
+    touch config
 
 Open the file in Visual Studio
 
-code config
+    code config
 
 Enter the configuration information
 
@@ -82,11 +79,8 @@ Following these steps enable the connection to the VM using the following codein
 ### 1.9.2 - Visual Studio Configuration
 
 Ensure Remote SSH extension is installed in VS
-
 In the bottom left of VS click “Open Remote Window”
-
 Click on “Connect to Host” and select the project
-
 If we made the config file first here the project should appear
 
 ### 1.9.3 - Google Cloud CLI Configuration
@@ -107,7 +101,6 @@ Now that we have our virtual machine we need to install all of the software that
 
 
 Go to the Anaconda website and copy the link used to download python on a linux machine
-
 https://www.anaconda.com/
 
     wget <Anaconda_Download_URL>
@@ -188,9 +181,7 @@ Install mycli:
 ### 1.10.5 - Terraform
 
 On the Terraform website we need the link for the Linux AMD64 version of Terraform:
-
 https://developer.hashicorp.com/terraform/downloads
-
 Change directory to bin and then download Terraform
     
     cd .bin/
@@ -204,7 +195,6 @@ Unzip and remove the zipped file
 ## 1.11 - Forward Ports
 
 Pull up the ports tab (ctrl + ~)
-
 Press Forward Port and enter the relevant port numbers
 
 ## 1.12 - Initialize Terraform
