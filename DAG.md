@@ -129,6 +129,16 @@ To set the order each Dag is run we need to define it using the following code:
 task_name_1 >> task_name_2 >> task_name_3
 ```
 
-  
+Other common GCS operators used here are:
+```python
+GCSToGCSOperator
+```
+This can be used to reorganize files into a better structure
+
+```python
+BigQueryInsertJobOperator
+```
+
+This lets us run BigQuery inside of the DAG
   
   
